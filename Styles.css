@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Sekuya&family=Sirin+Stencil&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gold-text {
+  font-family: 'Sekuya', serif;
+  /* Gold Gradient */
+  background: linear-gradient(to bottom, #a77812 22%, #634f2c 24%, #ce9008 26%, #845d0b 27%, #ae8813 40%, #3a2c0f 78%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #fff; /* Fallback */
+  margin: 0;
+  font-weight: 400;
+  text-shadow: -1px 0 7px #d3910d, 0 1px 1px #ffb700, 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.title {
+    font-size: 50px;
+}
+body {
+background-color: #d8cca8;
+background: linear-gradient(0deg, #90650e 0%, #eba00a 50%, #000000 100%); 
+margin: 0%;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+.centered {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
