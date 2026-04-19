@@ -11,10 +11,10 @@
   background: linear-gradient(to bottom, #a77812 22%, #634f2c 24%, #ce9008 26%, #845d0b 27%, #ae8813 40%, #3a2c0f 78%);
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  color: #fff; /* Fallback */
+  color: #000000; /* Fallback */
   margin: 0;
   font-weight: 400;
-  text-shadow: -1px 0 7px #d3910d, 0 1px 1px #ffb700, 5px 5px 10px rgba(0, 0, 0, 0.4);
+  text-shadow: -1px 0 7px #d3910d, 0 1px 1px #ffb700, 5px 5px 10px rgba(0, 0, 0, 0.4);;
 }
 
 .title {
@@ -27,8 +27,21 @@ margin: 0%;
 background-repeat: no-repeat;
 background-attachment: fixed;
 }
+.pg_and_color {
+    font-family: 'Arvo', serif;
+   background-clip: text;
+  color: #000000; /* Fallback */
+  margin: 0;
+  text-shadow: -1px 0 7px #d3910d, 0 1px 1px #ffb700, 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+.img-right {
+    float: right;
+    margin: 0 0 20px 20px;
+}
+
 .centered {
-    display: flex;
-    justify-content: center;
-    height: 100vh;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: block;
 }
